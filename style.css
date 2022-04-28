@@ -1,0 +1,51 @@
+* {
+    margin: 0; 
+    
+}
+
+
+body { 
+    
+    background-image: url("images/fond.jpg");
+    background-repeat:no-repeat;
+    background-position: top center;
+      
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+nav {
+    padding-top: 10px;   
+  }
+  
+nav ul {
+    max-width: 1209px;
+    max-height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    display: flex;
+    background-color: #007f71;
+    box-shadow: 2px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding top: 10px;
+  }
+  
+  nav li {
+    margin: auto;
+    text-shadow: 1px 1px 1px #de1f9b;
+  }
+  
+  nav a {
+    color: blue;
+    text-decoration: none;  
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: #706b64;
+  }
+  
+  
