@@ -17,7 +17,7 @@ header img{
     margin-right: auto
 }
 nav {
-    padding-top: 10px;   
+    padding-top: 20px;   
   }
   
 nav ul {
@@ -50,12 +50,21 @@ nav ul {
 section{
     background-color:#e4a660;
     max-width: 1056px;
-    max-height: 135px;
-    margin-left: auto;
-    margin-right: auto; 
+    max-height: 135px; 
+    margin-left: auto; 
+    margin-right: auto;   
     margin-top: 20px; 
     color: white;
     box-shadow: 2px 2px 5px #1c1a19;
     border-radius: 5px;
 }
-  
+ 
+.imgtra,.imgter, .imgb {
+    max-width: 333px;
+    max-height: 114px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20px;  
+    box-shadow: 2px 2px 5px #1c1a19;
+    border-radius: 5px; 
+  }
