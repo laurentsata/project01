@@ -35,7 +35,7 @@ section{
     max-height: 135px;   
 }
 }
-@media screen and (max-width: 1200px) and (min-width: 390px){
+@media screen and (max-width: 1200px) and (min-width: 360px){
    /* header img{
         display: block;
         width: 390px;
