@@ -30,23 +30,24 @@ nav ul {
     list-style-type: none;
     display: flex;
     background-color: #007f71;
-    box-shadow: 2px 2px 5px #1c1a19;
+    box-shadow: 4px 4px 5px #e4a660;
     border-radius: 5px;
   }
   
   nav li {
-    margin: auto;
+    margin-left: 48px;
+    margin-right: auto;
     text-shadow: 1px 1px 1px #de1f9b;
   }
   
   nav a {
-    color: blue;
-    text-decoration: none;  
+    color: white;
+    text-decoration: none; 
   }
   
   nav a:hover {
     color: white;
-    background-color: #706b64;
+    background-color: #e4a660;
   }
   
 section{
@@ -57,7 +58,7 @@ section{
     margin-right: auto;   
     margin-top: 40px; 
     color: white;
-    box-shadow: 2px 2px 5px #1c1a19;
+    box-shadow: 4px 4px 5px white;
     border-radius: 5px;
 }
  
@@ -72,6 +73,9 @@ section p{
     margin-left: auto; 
     margin-right: auto;
     margin-top: 40px;  
-    box-shadow: 2px 2px 5px #1c1a19;
-    border-radius: 5px; 
+    box-shadow: 4px 4px 5px #e4a660;
+
+}
+div img {
+    border-radius: 5px;   
 }
