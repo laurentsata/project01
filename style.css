@@ -13,6 +13,8 @@ body {
 }
 header img{
     display: block;
+    max-width: 1920px;
+    max-height: 136px;
     margin-left: auto;
     margin-right: auto
 }
@@ -53,18 +55,23 @@ section{
     max-height: 135px; 
     margin-left: auto; 
     margin-right: auto;   
-    margin-top: 20px; 
+    margin-top: 40px; 
     color: white;
     box-shadow: 2px 2px 5px #1c1a19;
     border-radius: 5px;
 }
  
+section p{
+    margin-left: 6px; 
+    margin-right: auto; 
+    margin-bottom: auto;
+}
 .imgtra,.imgter, .imgb {
     max-width: 333px;
     max-height: 114px;
     margin-left: auto; 
     margin-right: auto;
-    margin-top: 20px;  
+    margin-top: 40px;  
     box-shadow: 2px 2px 5px #1c1a19;
     border-radius: 5px; 
-  }
+}
