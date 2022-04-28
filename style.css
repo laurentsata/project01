@@ -14,7 +14,7 @@ body {
 header img{
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto
 }
 nav {
     padding-top: 10px;   
@@ -30,7 +30,6 @@ nav ul {
     background-color: #007f71;
     box-shadow: 2px 2px 5px #1c1a19;
     border-radius: 5px;
-    padding top: 10px;
   }
   
   nav li {
