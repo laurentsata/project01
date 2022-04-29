@@ -33,16 +33,20 @@ body {
     }  
     section{
         width: 900px;
-        max-height: 135px;   
+        max-height: 135px; 
+        color: white;
+        box-shadow: 4px 4px 5px white;
+        border-radius: 5px;  
+    }
+    section p{
+        margin-left: 4px; 
+        margin-right: auto; 
+        margin-bottom: auto;
+        width: 892px;
+        height: 135px;
     }
     .imgtra,.imgter, .imgb{
         display: none;
-        max-width: 333px;
-        max-height: 114px;
-        margin-left: auto; 
-        margin-right: auto;
-        margin-top: 40px;  
-        box-shadow: 4px 4px 5px #e4a660;
     }
 }
 @media screen and (max-width: 1200px) and (min-width: 360px){
@@ -68,7 +72,7 @@ body {
         margin-left: auto; 
         margin-right: auto;
         margin-top: 40px;  
-        box-shadow: 4px 4px 5px #e4a660;
+        box-shadow: 4px 4px 5px #e4a660;  
     } 
     iframe{
         display: block;
@@ -77,6 +81,7 @@ body {
         margin-top: 40px; 
         max-width: 333px;
         max-height: 114px;
+        border-radius: 5px;  
     } 
 }
 @media screen and (min-width:1902px) {
@@ -91,7 +96,14 @@ body {
         margin-right: auto
     }
     .imgtra,.imgter, .imgb{
-        display: none;
+        display: none;  
+    }
+    section p{
+        margin-left: 6px; 
+        margin-right: auto; 
+        margin-bottom: auto;
+        width: 1075px;
+        height: 291px;
     }
 }
 nav{
@@ -132,13 +144,6 @@ section{
     box-shadow: 4px 4px 5px white;
     border-radius: 5px;
 }
-section p{
-    margin-left: 6px; 
-    margin-right: auto; 
-    margin-bottom: auto;
-    width: 1075px;
-    height: 291px;
-}
 div img{
     border-radius: 5px;
 }
@@ -146,5 +151,7 @@ iframe{
     display: block;
     margin-left: auto; 
     margin-right: auto;
-    margin-top: 40px; 
+    margin-top: 40px;
+    border-radius: 5px; 
+    box-shadow: 4px 4px 5px white;  
 }
