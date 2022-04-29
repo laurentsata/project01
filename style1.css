@@ -1,0 +1,131 @@
+* {
+    margin: 0; 
+    padding: 0;    
+}
+
+body {    
+    background-image: url("images/fond.jpg");
+    background-repeat:no-repeat;
+    background-position: top center;     
+}
+
+@media screen and (max-width: 1900px) and (min-width: 1201px){
+    header img{
+        display: block;
+        width: 1200px;
+        height: 84px;
+        margin-left: auto; 
+        margin-right: auto;
+        border-radius: 5px;
+    }
+    .banphone{
+        display: none;
+    }
+    nav ul{
+        width: 1100px;
+        max-height: 62px; 
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    nav li{
+        max-width: 100px;
+        
+    }  
+    section{
+        width: 900px;
+        max-height: 135px;   
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 360px){
+    section{
+        width: 350px;
+        max-height: 135px;   
+    }
+    .ban{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .banphone{
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        border-radius: 5px;
+    }
+}
+@media screen and (min-width:1902px) {
+    .banphone{
+        display: none;
+    }
+    header img{
+        display: block;
+        max-width: 1920px;
+        max-height: 136px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+nav{
+    padding-top: 20px;   
+} 
+nav ul{
+    max-width: 1209px;
+    max-height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    display: flex;
+    background-color: #007f71;
+    box-shadow: 4px 4px 5px #e4a660;
+    border-radius: 5px;
+} 
+nav li{
+    margin-left: 67px;
+    margin-right: auto;
+    text-shadow: 1px 1px 1px #de1f9b;
+} 
+nav a{
+    color: white;
+    text-decoration: none; 
+} 
+nav a:hover{
+    color: white;
+    background-color: #e4a660;
+}  
+section{
+    background-color:#e4a660;
+    max-width: 1075px;
+    max-height: 291px; 
+    margin-left: auto; 
+    margin-right: auto;   
+    margin-top: 40px; 
+    color: white;
+    box-shadow: 4px 4px 5px white;
+    border-radius: 5px;
+}
+section p{
+    margin-left: 6px; 
+    margin-right: auto; 
+    margin-bottom: auto;
+    width: 1075px;
+    height: 291px;
+}
+.imgtra,.imgter, .imgb{
+    max-width: 333px;
+    max-height: 114px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 40px;  
+    box-shadow: 4px 4px 5px #e4a660;
+}
+div img{
+    border-radius: 5px;
+}
+iframe{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 40px;
+   
+}
