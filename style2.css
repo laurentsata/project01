@@ -2,13 +2,11 @@
     margin: 0; 
     padding: 0;    
 }
-
 body {    
     background-image: url("images/fond.jpg");
     background-repeat:no-repeat;
     background-position: top center;     
 }
-
 @media screen and (max-width: 1900px) and (min-width: 1201px){
     header img{
         display: block;
