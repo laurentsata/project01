@@ -101,7 +101,7 @@ body {
         border-radius: 5px;  
     } 
 }
-@media screen and (min-width:1902px) {
+@media screen and (min-width:1900px) {
     .banphone{
         display: none;
     }

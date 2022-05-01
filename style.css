@@ -71,7 +71,7 @@ body {
         box-shadow: 4px 4px 5px #e4a660;
     }  
 }
-@media screen and (min-width:1902px) {
+@media screen and (min-width:1900px) {
     .banphone{
         display: none;
     }
