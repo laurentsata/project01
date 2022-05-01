@@ -35,6 +35,9 @@ body {
         width: 900px;
         max-height: 135px;   
     }
+    .menuphone, .menuphone1{
+        display: none;
+    }
 }
 @media screen and (max-width: 1200px) and (min-width: 360px){
     section{
@@ -53,9 +56,30 @@ body {
         margin-right: auto;
         border-radius: 5px;
     }
+    .menuphone{
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto; 
+        margin-right: auto;
+        border-radius: 5px;
+        max-width: 333px;
+        max-height: 114px;
+        margin-top: 40px;  
+        
+        
+    }
+    .menuphone img{ 
+        border-radius: 5px;
+        max-width: 166.5px;
+        max-height: 114px; 
+        box-shadow: 4px 4px 5px #e4a660;
+    }  
 }
 @media screen and (min-width:1902px) {
     .banphone{
+        display: none;
+    }
+    .menuphone{
         display: none;
     }
     header img{
@@ -117,7 +141,6 @@ section p{
     margin-right: auto;
     margin-top: 40px;  
     box-shadow: 4px 4px 5px #e4a660;
-
 }
 div img{
     border-radius: 5px;
