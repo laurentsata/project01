@@ -148,11 +148,3 @@ section{
 div img{
     border-radius: 5px;
 }
-iframe{
-    display: block;
-    margin-left: auto; 
-    margin-right: auto;
-    margin-top: 40px;
-    border-radius: 5px; 
-    box-shadow: 4px 4px 5px white;  
-}
