@@ -39,6 +39,7 @@ body {
         border-radius: 5px;  
     }
     section p{
+        font-size: 14px;
         margin-left: 4px; 
         margin-right: auto; 
         margin-bottom: auto;
