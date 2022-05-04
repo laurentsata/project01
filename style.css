@@ -102,10 +102,10 @@ body {
         margin-bottom: auto;
     }
 }
-nav{
+.phone{
     padding-top: 20px;   
 } 
-nav ul{
+.phone ul{
     max-width: 1209px;
     max-height: 62px;
     margin-left: auto;
@@ -116,16 +116,16 @@ nav ul{
     box-shadow: 4px 4px 5px #e4a660;
     border-radius: 5px;
 } 
-nav li{
+.phone li{
     margin-left: 67px;
     margin-right: auto;
     text-shadow: 1px 1px 1px #de1f9b;
 } 
-nav a{
+.phone a{
     color: white;
     text-decoration: none; 
 } 
-nav a:hover{
+.phone a:hover{
     color: white;
     background-color: #e4a660;
     border-radius: 4px;
