@@ -40,6 +40,7 @@ body {
         border-radius: 5px;  
     }
     section p{
+        text-align: justify;
         margin-left: 8px; 
         margin-right: auto; 
         width: 490px;
@@ -196,7 +197,8 @@ input[type=text], textarea, input[type=email] {
   }
 @media screen and (max-width: 1200px) and (min-width: 360px){
     .bottomphone img{
-        max-height: 50px;
+        height: 60px;
+        width: 60px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
@@ -222,7 +224,8 @@ input[type=text], textarea, input[type=email] {
         display:none;
     }
 .bottom img{
-    max-height: 50px;
+    height: 60px;
+    width: 60px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -254,12 +257,18 @@ input[type=text], textarea, input[type=email] {
 }
 
 /* Modal Content/Box */
+.modal-content p{
+    text-align: center;
+    font-size: large;
+}
 .modal-content {
-    background-color: #fefefe;
+    color: white;
+    background-color: #007f71;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
+    border: 2px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
+    border-radius: 5px;
 }
 
 /* The Close Button */

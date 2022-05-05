@@ -43,6 +43,7 @@ body {
         border-radius: 5px;  
     }
     section p{
+        text-align: justify;
         font-size: 12px;
         margin-top: 40px;
         margin-left: auto; 
@@ -134,6 +135,7 @@ body {
         border-radius: 5px;
     }
     section p{
+        text-align: justify;
         font-size: 16px;
         margin-left: 6px; 
         margin-right: auto; 

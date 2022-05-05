@@ -40,6 +40,7 @@ body {
         border-radius: 5px;  
     }
     section p{
+        text-align: justify;
         margin-left: 8px; 
         margin-right: auto; 
         width: 490px;
@@ -119,6 +120,7 @@ body {
         display: none;  
     }
     section p{
+        text-align: justify;
         margin-left: 8px; 
         margin-right: auto; 
         width: 490px;
