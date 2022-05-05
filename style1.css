@@ -39,7 +39,7 @@ body {
         width: 900px;
         max-height: 100px; 
         color: white;
-        box-shadow: 4px 4px 5px white;
+        box-shadow: 4px 4px 5px black;
         border-radius: 5px;  
     }
     section p{
@@ -131,7 +131,7 @@ body {
         margin-right: auto;   
         margin-top: 40px; 
         color: white;
-        box-shadow: 4px 4px 5px white;
+        box-shadow: 4px 4px 5px black;
         border-radius: 5px;
     }
     section p{

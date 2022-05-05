@@ -36,7 +36,7 @@ body {
         width: 900px;
         max-height: 135px; 
         color: white;
-        box-shadow: 4px 4px 5px white;
+        box-shadow: 4px 4px 5px black;
         border-radius: 5px;  
     }
     section p{
@@ -164,7 +164,7 @@ section{
     margin-right: auto;   
     margin-top: 40px; 
     color: white;
-    box-shadow: 4px 4px 5px white;
+    box-shadow: 4px 4px 5px black;
     border-radius: 5px;
 }
 div img{
@@ -176,5 +176,5 @@ iframe{
     margin-right: auto;
     margin-top: 40px;
     border-radius: 5px; 
-    box-shadow: 4px 4px 5px white; 
+    box-shadow: 4px 4px 5px black; 
 } 
