@@ -45,7 +45,7 @@ body {
     section p{
         text-align: justify;
         font-size: 12px;
-        padding: 20px, 20px, 20px, 20px; 
+        padding: 20px 20px 20px 20px; 
         width: 893px;
         height: 100px;
     }
@@ -134,7 +134,7 @@ body {
     }
     section p{
         text-align: justify;
-        padding: 20px, 20px, 20px, 20px; 
+        padding: 20px 20px 20px 20px; 
         width: 1073px;
         height: 150px;
     }
