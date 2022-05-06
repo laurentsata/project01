@@ -45,10 +45,8 @@ body {
     section p{
         text-align: justify;
         font-size: 12px;
-        margin-top: 40px;
-        margin-left: auto; 
-        margin-right: auto; 
-        width: 894px;
+        padding: 20px, 20px, 20px, 20px; 
+        width: 893px;
         height: 100px;
     }
     .imgtra,.imgter, .imgb{
@@ -136,11 +134,8 @@ body {
     }
     section p{
         text-align: justify;
-        font-size: 16px;
-        margin-left: 6px; 
-        margin-right: auto; 
-        margin-bottom: auto;
-        width: 1075px;
+        padding: 20px, 20px, 20px, 20px; 
+        width: 1073px;
         height: 150px;
     }
 }
