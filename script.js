@@ -11,6 +11,7 @@ contactForm.addEventListener("submit", function(event){
 //je sélectionne et stocke la div container-notifications
 const ctn = document.querySelector(".container-notifications");
 //console.log(ctn);
+const contactForm = document.getElementById("contactForm");
 contactForm.addEventListener("submit", function(event){
     console.log("bouton cliqué");
     event.preventDefault(); //stop le rafraichissemment de la page
@@ -53,3 +54,14 @@ window.onclick = function(event) {
         event.preventDefault();
     }
 }
+function affichZero(nombre) {
+    return nombre < 10 ? '0' + nombre : nombre;
+    }
+    
+    function dateEtHeure() {
+    const infos = new Date();    
+    document.getElementById('heure_exacte').innerHTML = ' ' + affichZero(infos.getHours()) + ':' + affichZero(infos.getMinutes()) + '\'\'' + affichZero(infos.getSeconds());
+    }
+    window.onload = function() {
+    setInterval("dateEtHeure()", 100);
+    };
