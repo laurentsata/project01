@@ -28,9 +28,9 @@ ctn.appendChild(notification);
     //A la fin du chrono, je retire la notification du dom
     setTimeout(function(){
     notification.remove();
-}, 2000);
-}); //fermeture de btn.addEventListener
-                    //****modal****
+}, 2000); 
+}); //fermeture de btn.addEventListener  */
+                 //****modal****  
   // Get the modal
 const modal = document.getElementById('myModal');
 // Get the button that opens the modal
@@ -53,15 +53,4 @@ window.onclick = function(event) {
         modal.style.display = "none";
         event.preventDefault();
     }
-}
-function affichZero(nombre) {
-    return nombre < 10 ? '0' + nombre : nombre;
-    }
-    
-    function dateEtHeure() {
-    const infos = new Date();    
-    document.getElementById('heure_exacte').innerHTML = ' ' + affichZero(infos.getHours()) + ':' + affichZero(infos.getMinutes()) + '\'\'' + affichZero(infos.getSeconds());
-    }
-    window.onload = function() {
-    setInterval("dateEtHeure()", 100);
-    };
+} 

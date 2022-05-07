@@ -75,11 +75,16 @@ section{
 div img{
     border-radius: 5px;
 }
-#heure_exacte{
-    bottom: 2;
-    left: 2;
-    color: red;
-    font-size: 1.2em;         
+#time{
+    position: fixed;
+    z-index: 3;
+    background-color: #e4a660; 
+    border-radius: 5px;
+    padding: 2px;
+    right: 50px;
+    bottom: 55px;
+    color: white;
+    font-size: 1.6em;          
 }
 @media screen and (max-width: 1900px) and (min-width: 1200px){
     header img{
@@ -143,4 +148,9 @@ div img{
     section p{
         font-size: 12px;
     } 
+}
+@media screen and (max-width: 800px){
+    #time{
+        display: none;
+    }
 }
