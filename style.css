@@ -159,13 +159,6 @@ div img{
     
 }
 @media screen and (max-width: 800px){
-    .intro{
-        width: 350px;
-        max-height: 135px;   
-    }
-    .intro p{
-        display: none;
-    }
     #time{
         display: none;
     }
