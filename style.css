@@ -22,7 +22,7 @@ body {
         margin-left: auto;
         margin-right: auto
     }
-    section p{
+    .intro p{
         padding: 5px;
         text-align: justify;
     }
@@ -53,7 +53,7 @@ body {
     background-color: #e4a660;
     border-radius: 4px;
 }  
-section{
+.intro{
     background-color:#e4a660;
     max-width: 1058px;
     max-height: 135px; 
@@ -112,7 +112,7 @@ div img{
     nav li{
         max-width: 100px;    
     }  
-    section{
+    .intro{
         width: 900px;
         max-height: 135px;   
     }
@@ -121,7 +121,7 @@ div img{
     }  
 }
 @media screen and (max-width: 1200px){
-    section{
+    .intro{
         width: 350px;
         max-height: 135px;   
     }
@@ -153,7 +153,7 @@ div img{
         max-height: 114px; 
         box-shadow: 4px 4px 5px #e4a660;
     } 
-    section p{
+    .intro p{
         font-size: 12px;
     } 
     

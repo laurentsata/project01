@@ -25,7 +25,7 @@ body {
     .imgtra,.imgter, .imgb{
         display: none;  
     }
-    section{
+    .intro{
         background-color:#e4a660;
         max-width: 490px;
         max-height: 60px; 
@@ -36,7 +36,7 @@ body {
         box-shadow: 4px 4px 5px black;
         border-radius: 5px;
     }
-    section p{ 
+    .intro p{ 
         text-align: justify; 
         padding: 5px;
         font-size: 14px;
@@ -101,16 +101,16 @@ iframe{
         width: 1100px;
         max-height: 62px; 
     }
-    section{
+    .intro{
         max-width: 490px;
         max-height: 135px;   
     }
-    section p{
+    .intro p{
         text-align: justify;       
     }
 }
 @media screen and (max-width: 1200px){
-    section{
+    .intro{
         display: none;  
     }
     .ban{

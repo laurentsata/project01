@@ -61,7 +61,7 @@ body {
     .imgtra,.imgter, .imgb{
         display: none;  
     }
-    section{
+    .intro{
         background-color:#e4a660;
         max-width: 1078px;
         max-height: 155px; 
@@ -72,7 +72,7 @@ body {
         box-shadow: 4px 4px 5px black;
         border-radius: 5px;
     }
-    section p{
+    .intro p{
         text-align: justify;
         padding: 5px;     
     }
@@ -99,16 +99,16 @@ body {
     nav li{
         max-width: 100px;
     }  
-    section{ 
+    .intro{ 
         max-width: 900px;
         max-height: 120px;  
     }
-    section p{
+    .intro p{
         font-size: 12px;    
     }
 }
 @media screen and (max-width: 1200px){
-    section{
+    .intro{
         display: none;  
     }
     .ban{
