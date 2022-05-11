@@ -25,7 +25,7 @@ header img{
 .container {
     margin-top: 40px;
     max-width: 600px;
-    max-height: 450px;
+    max-height: 750px;
     border-radius:5px;
     background-color: #e4a660;
     padding:20px;
@@ -180,6 +180,14 @@ input[type=submit]:hover {
     max-height: 50px;
     cursor: pointer; /*mettre curseur "main" sur img telephone*/
 }
+.w3c{
+    position: fixed;
+    z-index: 3;
+    left: 55px;
+    bottom: 55px;
+    width:88px;
+    height:31px
+} 
 @media screen and (max-width: 1900px) and (min-width: 1200px){
     header img{
         display: block;
@@ -256,5 +264,10 @@ input[type=submit]:hover {
     }
     .container-notifications{
         font-size: 1rem;   
+    }
+}
+@media screen and (max-width: 800px){
+    .w3c{
+        display: none;
     }
 }

@@ -80,6 +80,14 @@ iframe{
     border-radius: 5px; 
     box-shadow: 4px 4px 5px black; 
 } 
+.w3c{
+    position: fixed;
+    z-index: 3;
+    left: 55px;
+    bottom: 55px;
+    width:88px;
+    height:31px
+} 
 @media screen and (max-width: 1900px) and (min-width: 1200px){
     header img{
         display: block;
@@ -151,4 +159,9 @@ iframe{
         max-height: 114px;
         border-radius: 5px;  
     } 
+}
+@media screen and (max-width: 800px){
+    .w3c{
+        display: none;
+    }
 }

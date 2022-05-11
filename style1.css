@@ -76,6 +76,14 @@ body {
         text-align: justify;
         padding: 5px;     
     }
+    .w3c{
+        position: fixed;
+        z-index: 3;
+        left: 55px;
+        bottom: 55px;
+        width:88px;
+        height:31px
+    } 
 @media screen and (max-width: 1900px) and (min-width: 1200px){
     header img{
         display: block;
@@ -153,3 +161,8 @@ body {
 nav{
     padding-top: 20px;   
 } 
+@media screen and (max-width: 800px){
+    .w3c{
+        display: none;
+    }
+}
