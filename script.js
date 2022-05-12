@@ -13,7 +13,7 @@ const ctn = document.querySelector(".container-notifications");
 //console.log(ctn);
 const contactForm = document.getElementById("contactForm");
 contactForm.addEventListener("submit", function(event){
-    console.log("bouton cliqué");
+    //console.log("bouton cliqué");
     event.preventDefault(); //stop le rafraichissemment de la page
     //je crée un élément
 const notification = document.createElement("div");
