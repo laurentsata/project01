@@ -1,35 +1,35 @@
 * {
-    margin: 0; 
+    margin: 0; /*marge à 0*/
     padding: 0; 
-    box-sizing: border-box; 
-    text-decoration: none;  
+    box-sizing: border-box;  /*cadre enfant dans le parent */
+    text-decoration: none;  /*enlève la deco des textes, soulignement etc*/
 }
 body {    
-    background-image: url("images/fond.jpg");
-    background-repeat:no-repeat;
-    background-position: top center;     
+    background-image: url("images/fond.jpg");/*image de fond*/
+    background-repeat:no-repeat; /* empêche l'image de fond de se répéter dans la page*/
+    background-position: top center; /*la position de l'image de fond*/  
 }
     .banphone{
-        display: none;
+        display: none;/*bannière téléphone off*/
     }
     .menuphone{
-        display: none;
+        display: none;/*menu téléphone off*/
     }
-    header img{
+    header img{ /*image dans le header: bannière*/
         display: block;
         max-width: 1920px;
         max-height: 136px;
         margin-left: auto;
         margin-right: auto
     }
-    .intro p{
+    .intro p{/*paragraphe intro*/
         padding: 5px;
         text-align: justify;
     }
-.phone{
+.phone{/*barre de navigation*/
     padding-top: 20px;   
 } 
-.phone ul{
+.phone ul{/*effet dans la barre de navigation*/
     max-width: 1209px;
     max-height: 62px;
     margin-left: auto;
@@ -40,20 +40,20 @@ body {
     box-shadow: 4px 4px 5px #e4a660;
     border-radius: 5px;
 } 
-.phone li{
+.phone li{/*effet du contenu de la barre de navigation*/
     margin-left: 67px;
     margin-right: auto;
     text-shadow: 1px 1px 1px #de1f9b;
 } 
-.phone a{
+.phone a{/*couleur police barre navigation*/
     color: white; 
 } 
-.phone a:hover{
+.phone a:hover{/*effet au passage de la souris sur le texte barre de navigation*/
     color: white;
     background-color: #e4a660;
     border-radius: 4px;
 }  
-.intro{
+.intro{/*effet de l'introduction*/
     background-color:#e4a660;
     max-width: 1058px;
     max-height: 135px; 
@@ -64,7 +64,7 @@ body {
     box-shadow: 4px 4px 5px black;
     border-radius: 5px;
 }
-.imgtra,.imgter, .imgb{
+.imgtra,.imgter, .imgb{/*effet des images*/
     max-width: 333px;
     max-height: 114px;
     margin-left: auto; 
@@ -75,7 +75,7 @@ body {
 div img{
     border-radius: 5px;
 }
-#time{
+#time{/*effet pour l'heure*/
     position: fixed;
     z-index: 3;
     background-color: #e4a660; 
@@ -86,7 +86,7 @@ div img{
     color: white;
     font-size: 1.6em;          
 }
-.w3c{
+.w3c{/*logo certifié w3c*/
     position: fixed;
     z-index: 3;
     left: 55px;
